@@ -15,10 +15,10 @@ public class ValidateBpi {
 	        String endpoint = "https://api.coindesk.com/v1/bpi/currentprice.json";
 	        Response response = RestAssured.given().get(endpoint);
 
-	        // then Ensure the request was successful
+	        // then i'll Ensure the request was successful
 	        Assert.assertEquals(response.statusCode(), 200, "Status code is not 200");
 
-	        // then Parse the response body into a Map
+	        // then i'll Parse the response body into a Map
 	        Map<String, Object> responseBody = response.jsonPath().getMap("$");
 
 	        // then I'll Extract the BPI object from the response
