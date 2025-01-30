@@ -1,4 +1,4 @@
-package com.seleniumautomation.ebay;
+package com.seleniumautomation;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import java.time.Duration;

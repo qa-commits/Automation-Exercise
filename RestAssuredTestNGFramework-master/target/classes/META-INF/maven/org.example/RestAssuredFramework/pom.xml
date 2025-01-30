@@ -79,12 +79,32 @@
             <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
+        
+        <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+
+        
+        
+        
+        
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>2.24.0</version>
         </dependency>
+        
+        <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.9.1</version>
+</dependency>
+
+        
+        
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-rest-assured -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
